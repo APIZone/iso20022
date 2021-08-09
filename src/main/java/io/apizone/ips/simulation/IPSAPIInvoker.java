@@ -113,7 +113,7 @@ public class IPSAPIInvoker {
 			CloseableHttpClient httpClient 		= HttpClients.custom().setSSLContext(sslContext).build();	
 			HttpPost httpPost 					= new HttpPost(sslURL);
 			
-			StringEntity entity = new StringEntity(requestPayload);
+			StringEntity entity 				= new StringEntity(requestPayload);
 		    httpPost.setEntity(entity);
 		    httpPost.setHeader("Accept", 		DEFUALT_CONTENT_TYPE);
 		    httpPost.setHeader("Content-type", 	DEFUALT_CONTENT_TYPE);
