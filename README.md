@@ -1,12 +1,10 @@
 Generate Certificate Store (PKCS)
 ---
 1. Transport Certificate Store
-
-    openssl pkcs12 -export -in bank8888_transport.pem -inkey bank8888.key -name bank8888_transport -out bank8888_transport.p12
+    `openssl pkcs12 -export -in bank8888_transport.pem -inkey bank8888.key -name bank8888_transport -out bank8888_transport.p12`
 
 2. Seal Certificate Store
-
-    openssl pkcs12 -export -in bank8888_seal.pem -inkey bank8888.key -name bank8888_seal -out bank8888_seal.p12
+    `openssl pkcs12 -export -in bank8888_seal.pem -inkey bank8888.key -name bank8888_seal -out bank8888_seal.p12`
 
 Update Variables & Parameters in `SignXml.java`
 ---
