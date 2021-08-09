@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:acmt.023.001.02">
+<IdVrfctnReq>
+    <Assgnmt>
+        <MsgId>SRK100011110003777</MsgId>
+        <CreDtTm>2021-07-26T23:02:24.862Z</CreDtTm>
+        <FrstAgt>
+            <FinInstnId>
+                <Othr>
+                    <Id>0014</Id>
+                </Othr>
+            </FinInstnId>
+        </FrstAgt>
+        <Assgnr>
+            <Agt>
+                <FinInstnId>
+                    <Othr>
+                        <Id>0014</Id>
+                    </Othr>
+                </FinInstnId>
+            </Agt>
+        </Assgnr>
+        <Assgne>
+            <Agt>
+                <FinInstnId>
+                    <Othr>
+                        <Id>0014</Id>
+                    </Othr>
+                </FinInstnId>
+            </Agt>
+        </Assgne>
+    </Assgnmt>
+    <Vrfctn>
+        <Id>SRK2f7f2939c4919a7c96b61dd14e777</Id>
+        <PtyAndAcctId>
+            <Acct>
+                <Othr>
+                    <Id>5029728001</Id>
+                </Othr>
+            </Acct>
+            <Agt>
+                <FinInstnId>
+                    <Othr>
+                        <Id>0014</Id>
+                    </Othr>
+                </FinInstnId>
+            </Agt>
+        </PtyAndAcctId>
+    </Vrfctn>
+</IdVrfctnReq>
+</Document>
